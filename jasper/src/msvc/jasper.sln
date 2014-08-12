@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgcmp", "imgcmp.vcproj", "{314FF477-D8A3-492D-AF97-9E4E6804334C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2} = {643A5478-78CF-4F9C-92F1-ABC27F61ADF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imginfo", "imginfo.vcproj", "{37CE31B2-270B-472E-A482-9FDEDA09EC3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2} = {643A5478-78CF-4F9C-92F1-ABC27F61ADF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jasper", "jasper.vcproj", "{89DF3E52-F15B-4F60-99A0-3305A4EE90F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2} = {643A5478-78CF-4F9C-92F1-ABC27F61ADF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jiv", "jiv.vcproj", "{4B034187-623F-4A6C-BA31-E38E24B8AE91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjasper", "libjasper.vcproj", "{643A5478-78CF-4F9C-92F1-ABC27F61ADF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314FF477-D8A3-492D-AF97-9E4E6804334C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{314FF477-D8A3-492D-AF97-9E4E6804334C}.Debug|Win32.Build.0 = Debug|Win32
+		{314FF477-D8A3-492D-AF97-9E4E6804334C}.Release|Win32.ActiveCfg = Release|Win32
+		{314FF477-D8A3-492D-AF97-9E4E6804334C}.Release|Win32.Build.0 = Release|Win32
+		{37CE31B2-270B-472E-A482-9FDEDA09EC3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37CE31B2-270B-472E-A482-9FDEDA09EC3C}.Debug|Win32.Build.0 = Debug|Win32
+		{37CE31B2-270B-472E-A482-9FDEDA09EC3C}.Release|Win32.ActiveCfg = Release|Win32
+		{37CE31B2-270B-472E-A482-9FDEDA09EC3C}.Release|Win32.Build.0 = Release|Win32
+		{89DF3E52-F15B-4F60-99A0-3305A4EE90F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89DF3E52-F15B-4F60-99A0-3305A4EE90F8}.Debug|Win32.Build.0 = Debug|Win32
+		{89DF3E52-F15B-4F60-99A0-3305A4EE90F8}.Release|Win32.ActiveCfg = Release|Win32
+		{89DF3E52-F15B-4F60-99A0-3305A4EE90F8}.Release|Win32.Build.0 = Release|Win32
+		{4B034187-623F-4A6C-BA31-E38E24B8AE91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B034187-623F-4A6C-BA31-E38E24B8AE91}.Debug|Win32.Build.0 = Debug|Win32
+		{4B034187-623F-4A6C-BA31-E38E24B8AE91}.Release|Win32.ActiveCfg = Release|Win32
+		{4B034187-623F-4A6C-BA31-E38E24B8AE91}.Release|Win32.Build.0 = Release|Win32
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2}.Debug|Win32.Build.0 = Debug|Win32
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2}.Release|Win32.ActiveCfg = Release|Win32
+		{643A5478-78CF-4F9C-92F1-ABC27F61ADF2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
