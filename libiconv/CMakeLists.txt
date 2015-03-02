@@ -28,6 +28,10 @@ else()
     set ( USE_MBSTATE_T 0 )
 endif()
 
+if (MSVC)
+    set(HAVE_VISIBILITY 0)
+endif()
+
 configure_file ( ${CMAKE_MODULE_PATH}/config.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config.h )
 configure_file ( ${CMAKE_MODULE_PATH}/iconv.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/iconv.h )
 configure_file ( ${CMAKE_SOURCE_DIR}/libcharset/include/libcharset.h.in ${CMAKE_CURRENT_BINARY_DIR}/libcharset.h )
@@ -46,7 +50,6 @@ if (MSVC)
     add_definitions (-DPACKAGE_VERSION_MINOR=14) 
     add_definitions (-DPACKAGE_VERSION_SUBMINOR=0) 
     add_definitions (-DPACKAGE_VERSION_STRING="libiconv-1.14")
-    set(HAVE_VISIBILITY 0)
 endif()
 
 include_directories ( ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR} include srclib )
